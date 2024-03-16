@@ -1,1 +1,23 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  padding-top: 15%;
+  color: yellowgreen;
+  background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg");
+  height: fit-content;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button {
+  background-color: rgb(177, 177, 177);
+  padding: 4.5px;
+  border-radius: 10px;
+  border: 20cap;
+}
+button:hover {
+  background: gray;
+  color: azure;
+}
+button:active {
+  color: black;
+  background: rgb(154, 41, 41);
+}
